@@ -4,9 +4,9 @@ def sayHello():
 
 def Max(a,b):
     if a>b:
-        print(a)
+        return a
     else:
-        print(b)
+        return b
 
 sayHello()
 print(Max(2,3))
